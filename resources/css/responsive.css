@@ -1,0 +1,90 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .key__feature--title {
+    font-size: 2rem;
+  }
+  .featured--card {
+    padding: 34px 22px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mobile__navigation--bar {
+    display: none;
+  }
+  .offcanvas__header {
+    display: none;
+  }
+  .features__section {
+    margin-bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .menu--wrapper,
+  .purchase__button--wrapper {
+    display: none;
+  }
+  h2.hero--heading {
+    line-height: 4rem;
+  }
+  .hero--sub-heading {
+    margin: 1rem 0 0;
+  }
+  .featured--card {
+    margin-bottom: 3rem;
+  }
+  .featured--card::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .section--header {
+    margin-bottom: 5rem;
+  }
+  section.demo__area {
+    padding-bottom: 4rem;
+  }
+  .theme--features__section {
+    padding-bottom: 4rem;
+    padding-top: 7rem;
+  }
+  .faq__section {
+    padding: 70px 0;
+  }
+  .footer {
+    padding: 7rem 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero__section--content-inner {
+    padding: 0 10rem;
+  }
+  .demo__card--title {
+    font-size: 1.8rem;
+  }
+  .accordion-item-header {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero--sub-heading {
+    font-size: 1.8rem;
+  }
+  h2.hero--heading {
+    line-height: 3.6rem;
+  }
+  .double--button.mt-50 {
+    margin-top: 2.5rem;
+  }
+  .hero__section--content-inner {
+    margin-top: 5rem;
+  }
+  .demo__card--title {
+    font-size: 1.7rem;
+  }
+  .accordion-item-header {
+    font-size: 1.6rem;
+  }
+}
