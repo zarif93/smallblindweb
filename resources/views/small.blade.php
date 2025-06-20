@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Small Blind Poker</title>
- 
+    <meta name="description" content="הצטרף למשחקי פוקר איכותיים דרך אפליקציית ClubGG! קבל קוד הזמנה אישי, שחק עם שחקנים מכל הארץ ותהנה מחוויית משחק מקצועית ומהירה. מתאים לשחקנים מתחילים ומתקדמים כאחד.">
+
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/1.jpeg') }}">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
