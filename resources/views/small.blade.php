@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth" dir="rtl">
+<html lang="he" class="scroll-smooth" dir="rtl">
     <head>
-        
+
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,11 +12,18 @@
         <!-- favicon סטטי -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
 
-        <!-- Google fonts -->
+        <!-- Google Fonts - טעינה מהירה יותר -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
 
+        <link rel="preload" as="style"
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+            onload="this.onload=null;this.rel='stylesheet'">
+
+        <noscript>
+            <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap">
+        </noscript>
         <!-- Swiper CSS with preload -->
         <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"></noscript>
@@ -160,13 +167,14 @@
                   <span class="text-accent1 text-[24px] font-semibold italic pb-[5px]">ברוך הבא לעולם הפוקר של ישראל</span>
                   <h2 class="lg:text-[60px] only-md:text-[40px] sm:text-[28px] font-bold font-heebo text-heading dark:text-white">Small Blind</h2>
                   <h3 class="font-heebo font-normal text-primary dark:text-white">✔️ הצטרפות פשוטה | ✔️ תמיכה אישית </h3>
-                  <p class="lg:text-[20px] md:text-[16px] text-paragraph dark:text-slate-200 lg:mt-[18px] md:mt-[15px]">
-                    בוא לשחק עם שחקנים אמיתיים,<br>
-                     בקהילה ישראלית תוססת,<br>
-                      עם תמיכה מלאה וליווי אישי מהצעד הראשון.<br>
-                      לא משנה אם אתה שחקן מתחיל או מקצוען ותיק <br>
-                      אצלנו תמצא את הדרך הנכונה להתחבר לשולחנות אונליין איכותיים,<br>
-                      אז למה לחכות? בוא לשחק  .</p>
+                  <p class="lg:text-[20px] md:text-[16px] text-paragraph dark:text-slate-200 lg:mt-[18px] md:mt-[15px] leading-relaxed">
+                        בוא לשחק עם שחקנים אמיתיים,<br>
+                        בקהילה ישראלית תוססת,<br>
+                        עם תמיכה מלאה וליווי אישי מהצעד הראשון.<br>
+                        לא משנה אם אתה שחקן מתחיל או מקצוען ותיק,<br>
+                        אצלנו תמצא את הדרך הנכונה להתחבר לשולחנות אונליין איכותיים.<br>
+                        אז למה לחכות? בוא לשחק.
+                    </p>
 
                    <div class="flex items-center gap-[18px] flex-wrap mt-[30px] sm:justify-center">
                       <a href="https://api.whatsapp.com/send/?phone=972526503297" class="btn outline-btn text-accent1 shrink-0">WhatsApp</a>
@@ -461,7 +469,7 @@
                         <span class=" absolute sm:w-[100px] sm:h-[100px] only-md:w-[150px] only-md:h-[150px] lg:w-[200px] lg:h-[200px] xl:w-[250px] xl:h-[250px] border-[8px] lg:border-[13px] border-accent1 rounded-full xs:bottom-[-25%] sm:bottom-[-12%] bottom-[-18%] ltr:sm:left-[3%] ltr:left-[-18%] rtl:sm:right-[3%] rtl:right-[-18%] animateUpDown"></span>
                       </div>
                       <div class="text-center mt-[30px]">
-                        <img class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1, 16) . '.webp') }}" alt="Avatar של שחקן במועדון פוקר סמול בליינד קלאב ג'י ג'י">
+                        <img width="500" height="500" class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1, 16) . '.webp') }}" alt="Avatar של שחקן במועדון פוקר סמול בליינד קלאב ג'י ג'י">
                       </div>
                   </div>
               </div>
@@ -491,7 +499,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -527,7 +535,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -567,7 +575,7 @@
               <!-- blog image -->
               <div class="overflow-hidden">
                 <span class="block">
-                  <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                  <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                 </span>
               </div>
                <!-- blog image end -->
@@ -785,7 +793,7 @@
     <!-------- Plugins js ------>
 
     <!-- Swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     @vite([
       'resources/js/app.js',
       'resources/js/imagesloaded.pkgd.min.js',
