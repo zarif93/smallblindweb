@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Small Blind Poker</title>
     <meta name="description" content="הצטרף למשחקי פוקר בישראל עם ClubGG! קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
-    
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/1.jpeg') }}">
+
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@
   </head>
   <body class="font-rubik dark:bg-dark_primary_bg">
 
-    <!-- Preloader start -->
+    <!-- Preloader start 
     <div id="preloader">
         <div class="loader--border"></div>
     </div>
@@ -52,9 +52,9 @@
           <div class="container mx-auto">
             <div class="flex justify-between items-center">
                 <div class="logo">
-                    <a href="#" class="flex items-center" style="width: 150px;">
-                      <img class="hidden dark:block rounded-full" src="{{ asset('images/logo dark.png') }}" alt="Logo" >
-                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.png') }}" alt="Logo">
+                    <a href="/" class="flex items-center" style="width: 150px;">
+                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
+                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
                     </a>
                 </div>
                 <div class="flex items-center md:hidden">
@@ -96,7 +96,14 @@
                 </div>
                 <div class="lg:hidden">
                   <button class="offcanvas__header--menu__open--btn text-primary dark:text-white " data-offcanvas>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12">
+                        </line>
+                        <line x1="3" y1="6" x2="21" y2="6">
+                        </line>
+                        <line x1="3" y1="18" x2="21" y2="18">
+                        </line>
+                    </svg>
                   </button>
                 </div>
             </div>
@@ -105,9 +112,9 @@
         <div class="offcanvas__header lg:hidden dark:bg-gray-800">
           <div class="offcanvas__inner">
               <div class="offcanvas__logo">
-                  <a class="offcanvas__logo_link" href="#">
-                      <img class="dark:hidden" src="images/logo.png" alt="Grocee Logo" width="158" height="36">
-                      <img class="hidden dark:block" src="images/logo dark.png" alt="Grocee Logo" width="158" height="36">
+                  <a class="offcanvas__logo_link" href="/">
+                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
+                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
                   </a>
                   <button class="offcanvas__close--btn dark:text-white" data-offcanvas>close</button>
               </div>
@@ -137,7 +144,7 @@
       <!-- Main wrapper start -->
       <main>
         <!-- Hero section start -->
-        <section class="bg-cover bg-no-repeat bg-center sm:h-full only-md:h-screen lg:min-h-screen flex justify-center items-center overflow-hidden bg-[url('../images/hero-bg-img.png')] bg-[#DAEEF1] dark:bg-[url('../images/hero-bg-img-dark.png')] dark:bg-dark_primary_bg dark:border-b dark:border-dark_accent1" id="home">
+        <section class="bg-cover bg-no-repeat bg-center sm:h-full only-md:h-screen lg:min-h-screen flex justify-center items-center overflow-hidden bg-[#DAEEF1] dark:bg-dark_primary_bg dark:border-b dark:border-dark_accent1" id="home">
             <div class="container mx-auto flex sm:flex-col items-center justify-center lg:mt-[40px] only-md:mt-[40px] sm:pt-[100px] sm:pb-[70px]">
                 <div class="lg:max-w-[40%] sm:max-w-[60%] xs:max-w-[85%] only-md:max-w-[40%] flex justify-end">
                   <div class="relative only-xl:max-w-[70%]">
@@ -188,7 +195,7 @@
         </section>
         <!-- Hero section end -->
         
-        <!--  Resume section start -->
+        <!--  Games section start -->
         <section class="lg:py-[100px] md:py-[70px]" id="services">
           <div class="container mx-auto">
             <!-- Section title start -->
@@ -408,10 +415,10 @@
 
           </div>
         </section>
-        <!--  Resume section end -->
+        <!--  Games section end -->
 
         <!-- About me section start -->
-        <section class="bg-cover bg-no-repeat bg-center bg-[url('../images/about-me-bg.png')] bg-[#ECF1F6] dark:bg-dark_primary_bg dark:bg-none py-[70px] lg:py-[100px] dark:border-t dark:border-b dark:border-dark_accent1" id="about">
+        <section class="bg-cover bg-no-repeat bg-center bg-[#ECF1F6] dark:bg-dark_primary_bg dark:bg-none py-[70px] lg:py-[100px] dark:border-t dark:border-b dark:border-dark_accent1" id="about">
           <div class="container mx-auto">
               <div class="flex justify-between sm:flex-wrap sm:flex-col-reverse">
                   <div class="w-full lg:max-w-[550px]">
@@ -454,11 +461,7 @@
                         <span class=" absolute sm:w-[100px] sm:h-[100px] only-md:w-[150px] only-md:h-[150px] lg:w-[200px] lg:h-[200px] xl:w-[250px] xl:h-[250px] border-[8px] lg:border-[13px] border-accent1 rounded-full xs:bottom-[-25%] sm:bottom-[-12%] bottom-[-18%] ltr:sm:left-[3%] ltr:left-[-18%] rtl:sm:right-[3%] rtl:right-[-18%] animateUpDown"></span>
                       </div>
                       <div class="text-center mt-[30px]">
-                        <img class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="">
-                        <!-- 
-                        <h4 class="font-heebo text-[50px] lg:text-[80px] font-bold leading-[1] text-white title-stroke">5+</h4>
-                        <span class="font-bold sm:text-[20px] only-md:text-[24px] lg:text-[30px] font-heebo text-primary dark:text-white">שנות ניסון</span>
-                        -->
+                        <img class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1, 16) . '.webp') }}" alt="Avatar של שחקן במועדון פוקר סמול בליינד קלאב ג'י ג'י">
                       </div>
                   </div>
               </div>
@@ -488,7 +491,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="">
+                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -524,7 +527,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="">
+                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -564,7 +567,7 @@
               <!-- blog image -->
               <div class="overflow-hidden">
                 <span class="block">
-                  <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="">
+                  <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                 </span>
               </div>
                <!-- blog image end -->
@@ -610,7 +613,7 @@
         <!-- Blog section end -->
 
         <!-- Contact form section start -->
-        <section class="py-[70px] lg:py-[100px] mb-[270px] bg-cover bg-no-repeat bg-center bg-[url('../images/contact-bg.png')] bg-[#ECF1F6] dark:bg-[url('../images/contact-bg-dark.png')] dark:bg-dark_primary_bg" id="contact">
+        <section class="py-[70px] lg:py-[100px] mb-[270px] bg-cover bg-no-repeat bg-center bg-[#ECF1F6] dark:bg-dark_primary_bg" id="contact">
             
             @if (session('success'))
                 <div style="
@@ -750,7 +753,7 @@
       <!-- Main wrapper end -->
 
     <!-- Footer start -->
-      <footer class="py-[50px] bg-cover bg-no-repeat bg-center bg-[url('../images/footer-bg.png')] bg-[#EFF3F7] dark:bg-[url('../images/footer-bg-dark.png')] dark:bg-dark_primary_bg dark:border-t dark:border-dark_accent1">
+      <footer class="py-[50px] bg-cover bg-no-repeat bg-center bg-[#EFF3F7] dark:bg-dark_primary_bg dark:border-t dark:border-dark_accent1">
       <div class="container mx-auto">
           <div class="grid grid-cols-1 only-md:grid-cols-2 lg:grid-cols-2">
               <div class="flex">
