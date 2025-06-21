@@ -17,9 +17,6 @@
      <!-- Plugins css -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
      @vite([
-      'resources/css/styles.css',
-      'resources/css/responsive.css',
-      'resources/css/mobilemenu.css',
       'resources/css/app.css',
 
 ])
@@ -491,7 +488,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -527,7 +524,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -567,7 +564,7 @@
               <!-- blog image -->
               <div class="overflow-hidden">
                 <span class="block">
-                  <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,15) . '.jpeg') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                  <img class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                 </span>
               </div>
                <!-- blog image end -->
@@ -785,7 +782,7 @@
     <!-------- Plugins js ------>
 
     <!-- Swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" ></script>
     @vite([
       'resources/js/app.js',
       'resources/js/imagesloaded.pkgd.min.js',
