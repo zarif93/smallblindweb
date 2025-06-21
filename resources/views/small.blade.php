@@ -1,29 +1,32 @@
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Small Blind Poker</title>
-    <meta name="description" content="הצטרף למשחקי פוקר בישראל עם ClubGG! קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Small Blind Poker</title>
+        <meta name="description" content="הצטרף למשחקי פוקר בישראל עם ClubGG! קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
 
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
-    
-     <!-- Plugins css -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-     @vite([
-      'resources/css/app.css',
+        <!-- favicon סטטי -->
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
 
-])
-    <!-- Plugins css end -->
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
 
+        <!-- Swiper CSS with preload -->
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"></noscript>
 
-  </head>
+        <!-- Vite CSS -->
+        @vite([
+            'resources/css/app.css',
+        ])
+
+    </head>
   <body class="font-rubik dark:bg-dark_primary_bg">
 
     <!-- Preloader start 
