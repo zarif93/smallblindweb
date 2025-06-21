@@ -499,7 +499,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -535,7 +535,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -575,7 +575,7 @@
               <!-- blog image -->
               <div class="overflow-hidden">
                 <span class="block">
-                  <img width="150" height="150" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                  <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
                 </span>
               </div>
                <!-- blog image end -->
@@ -800,5 +800,14 @@
       'resources/js/isotope.pkgd.min.js',
       'resources/js/script.js',
 ])
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHT5V6XMB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHT5V6XMB');
+</script>
   </body>
 </html>
