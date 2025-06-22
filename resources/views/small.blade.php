@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Small Blind Poker</title>
-        <meta name="description" content="הצטרף למשחקי פוקר בישראל עם ClubGG! קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
+        <meta name="description" content="הצטרף למשחקי פוקר בישראל עם קלאב גיגי קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
 
         <!-- favicon סטטי -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
@@ -60,8 +60,8 @@
             <div class="flex justify-between items-center">
                 <div class="logo">
                     <a href="/" class="flex items-center" style="width: 150px;">
-                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
-                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
+                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="סמול בליינד פוקר קלאב גיגי| לוגו מועדון פוקר סמול בליינד קלאב גיגי" width="150" height="150">
+                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="סמול בליינד פוקר קלאב גיגי | לוגו מועדון פוקר סמול בליינד קלאב גיגי" width="150" height="150">
                     </a>
                 </div>
                 <div class="flex items-center md:hidden">
@@ -120,8 +120,8 @@
           <div class="offcanvas__inner">
               <div class="offcanvas__logo">
                   <a class="offcanvas__logo_link" href="/">
-                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
-                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="Small Blind - GG Poker Club | לוגו מועדון פוקר סמול בליינד קלאב ג'י ג'י" width="150" height="150">
+                      <img class="hidden dark:block rounded-full " src="{{ asset('images/logo dark.webp') }}" alt="סמול בליינד פוקר קלאב גיגי| לוגו מועדון פוקר סמול בליינד קלאב גיגי" width="150" height="150">
+                      <img class="dark:hidden rounded-full" src="{{ asset('images/logo.webp') }}" alt="סמול בליינד פוקר קלאב גיגי| לוגו מועדון פוקר סמול בליינד קלאב גיגי" width="150" height="150">
                   </a>
                   <button class="offcanvas__close--btn dark:text-white" data-offcanvas>close</button>
               </div>
@@ -157,7 +157,8 @@
                   <div class="relative only-xl:max-w-[70%]">
                       <div class="flex items-center absolute bottom-0 right-0 bg-white dark:bg-dark_accent1 rounded-[50px] px-[15px] py-[15px] shadow-[0_0_50px_0_rgba(196,206,213,0.2)] dark:shadow-[0_0_50px_0_rgba(0,0,0,0.2)]"> 
                         <div class="text-accent1 w-[45px]">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                         </div>
                       </div>
 
@@ -469,7 +470,7 @@
                         <span class=" absolute sm:w-[100px] sm:h-[100px] only-md:w-[150px] only-md:h-[150px] lg:w-[200px] lg:h-[200px] xl:w-[250px] xl:h-[250px] border-[8px] lg:border-[13px] border-accent1 rounded-full xs:bottom-[-25%] sm:bottom-[-12%] bottom-[-18%] ltr:sm:left-[3%] ltr:left-[-18%] rtl:sm:right-[3%] rtl:right-[-18%] animateUpDown"></span>
                       </div>
                       <div class="text-center mt-[30px]">
-                        <img width="500" height="500" class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1, 16) . '.webp') }}" alt="Avatar של שחקן במועדון פוקר סמול בליינד קלאב ג'י ג'י">
+                        <img width="500" height="500" class="inline-block w-[80px] h-[80px] lg:w-[130px] lg:h-[130px] rounded-full" src="{{ asset('images/' . rand(1, 16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד באפליקציה של קלאב גיגי ">
                       </div>
                   </div>
               </div>
@@ -499,7 +500,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד באפליקציה של קלאב גיגי ">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -535,7 +536,7 @@
                 <!-- blog image -->
                 <div class="overflow-hidden">
                   <span class="block">
-                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                    <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד באפליקציה של קלאב גיגי ">
                   </span>
                 </div>
                 <!-- blog image end -->
@@ -575,7 +576,7 @@
               <!-- blog image -->
               <div class="overflow-hidden">
                 <span class="block">
-                  <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד">
+                  <img width="50" height="50" class="blog__thumb w-full transition duration-300" src="{{ asset('images/' . rand(1,16) . '.webp') }}" alt="תמונה מתוך פוסט בבלוג של מועדון פוקר סמול בליינד באפליקציה של קלאב גיגי ">
                 </span>
               </div>
                <!-- blog image end -->
