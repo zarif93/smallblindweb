@@ -6,9 +6,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Small Blind Poker</title>
-        <meta name="description" content="הצטרף למשחקי פוקר בישראל עם קלאב גיגי קבל קוד הצטרפות, שחק עם שחקנים אמיתיים ותהנה מחוויית קלאב מקצועית. הצטרף עכשיו ל-smallblind.club.">
-
+        <title>פוקר אונליין בישראל – טקסס הולדם, אומהה וטורנירים יומיים | Small Blind</title>
+<meta name="description" content="SmallBlind.club – קלאב פוקר אונליין בישראל עם קלאב גיגי ClubGG. שחקנים אמיתיים, טורנירים יומיים, טקסס הולדם ואומהה, תמיכה וליווי אישי. קוד הצטרפות מהיר עכשיו!" />
         <!-- favicon סטטי -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/' . rand(1,16) . '.webp') }}">
 
